@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:marginalrevolution.com)",
-      "Bash(curl -s \"https://marginalrevolution.com/marginalrevolution/2026/04/tuesday-assorted-links-565.html\")",
-      "Bash(curl -s https://marginalrevolution.com/marginalrevolution/2026/04/tuesday-assorted-links-565.html https://marginalrevolution.com/marginalrevolution/2026/04/friday-assorted-links-562.html)"
-    ]
-  }
-}
