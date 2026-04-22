@@ -75,3 +75,7 @@ When you visit a Marginal Revolution "assorted links" post:
 - **Reference detection:** Regex-based, finds `#X`, `X.`, `X)` patterns
 - **Non-intrusive:** Light styling, inserted between author line and comment text
 - **Performance:** Vanilla JS, no dependencies, minimal DOM overhead
+
+## Privacy
+
+MR Links does not collect, store, or transmit any user data. The extension only operates on marginalrevolution.com and performs all processing locally in your browser.
