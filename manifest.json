@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "MRU Links",
+  "name": "MR Links",
   "version": "1.0.0",
   "description": "Show referenced links above comments on Marginal Revolution assorted links posts",
   "permissions": [],

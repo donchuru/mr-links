@@ -1,4 +1,4 @@
-# MRU Links Extension
+# MR Links Extension
 
 A lightweight browser extension that makes reading Marginal Revolution's assorted links posts easier by showing the referenced link above each comment.
 
@@ -7,7 +7,7 @@ A lightweight browser extension that makes reading Marginal Revolution's assorte
 1. Open Chrome and go to `chrome://extensions/`
 2. Enable "Developer mode" (top right)
 3. Click "Load unpacked"
-4. Select the `/Users/donchuru/programming/projects/mru-links/` directory
+4. Select the `/Users/donchuru/programming/projects/mr-links/` directory
 
 ## How It Works
 
