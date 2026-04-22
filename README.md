@@ -4,10 +4,38 @@ A lightweight browser extension that makes reading Marginal Revolution's assorte
 
 ## Installation
 
-1. Open Chrome and go to `chrome://extensions/`
-2. Enable "Developer mode" (top right)
-3. Click "Load unpacked"
-4. Select the `/Users/donchuru/programming/projects/mr-links/` directory
+### Option 1: Install from Chrome Web Store (Recommended)
+
+1. Visit the [MR Links extension on Chrome Web Store](https://chrome.google.com/webstore)
+2. Click "Add to Chrome"
+3. Confirm the permission prompt
+4. Done! The extension is now active on all Marginal Revolution assorted links posts
+
+### Option 2: Clone & Run Your Own Fork
+
+If you want to modify the extension or run a custom version:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/mr-links-all.git
+   cd mr-links-all/mr-links
+   ```
+
+2. Open Chrome and go to `chrome://extensions/`
+
+3. Enable "Developer mode" (toggle in top right)
+
+4. Click "Load unpacked"
+
+5. Select the `mr-links/` directory from your cloned repo
+
+6. The extension is now loaded. Any changes to `content.js` or `content.css` will take effect after a page refresh.
+
+### Development Notes
+
+- Manifest V3 requires reloading the extension after code changes
+- To reload: Go to `chrome://extensions/`, find "MR Links", and click the refresh icon
+- Test on: https://marginalrevolution.com/marginalrevolution/ (any assorted links post)
 
 ## How It Works
 
@@ -27,9 +55,18 @@ When you visit a Marginal Revolution "assorted links" post:
 
 ## Testing
 
-Visit: https://marginalrevolution.com/marginalrevolution/2026/04/tuesday-assorted-links-565.html
+1. Navigate to any Marginal Revolution "Assorted Links" post (e.g., https://marginalrevolution.com/marginalrevolution/2026/04/tuesday-assorted-links-565.html)
 
-Look for comments that reference a link number (like "4. Why leave out..." or "#2 – This is...") — you should see a blue banner above the comment with the original link.
+2. Scroll to the comments section
+
+3. Look for comments that reference a link number, such as:
+   - `#2 – This is interesting...`
+   - `4. Why leave out...`
+   - `Following up on 7)`
+
+4. You should see a blue banner above each comment showing the title and URL of the referenced link
+
+5. Click the banner to open the link in a new tab
 
 ## Design
 
