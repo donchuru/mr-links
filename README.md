@@ -6,7 +6,7 @@ A lightweight browser extension that makes reading Marginal Revolution's assorte
 
 ### Option 1: Install from Chrome Web Store (Recommended)
 
-1. Visit the [MR Links extension on Chrome Web Store](https://chrome.google.com/webstore)
+1. Visit the [MR Links extension on Chrome Web Store](https://chromewebstore.google.com/detail/mr-links/kkfiikgfhfmhbnaidnldoidapoocfkoa)
 2. Click "Add to Chrome"
 3. Confirm the permission prompt
 4. Done! The extension is now active on all Marginal Revolution assorted links posts
